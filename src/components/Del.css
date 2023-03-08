@@ -1,0 +1,125 @@
+.del-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-firebrick);
+  width: 833px;
+  height: 80px;
+}
+.div15,
+.div16 {
+  position: absolute;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.div15 {
+  top: 13px;
+  left: 383px;
+  text-align: left;
+}
+.div16 {
+  top: 98px;
+  left: 63px;
+  color: var(--color-firebrick);
+  display: inline-block;
+  width: 707px;
+}
+.search-icon4 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+}
+.your-text-here4 {
+  border: 0;
+  font-weight: 500;
+  font-family: var(--font-nunito);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  color: var(--color-gray-100);
+  text-align: left;
+}
+
+.input-field4 {
+  position: absolute;
+  top: 183px;
+  left: 238px;
+  border-radius: var(--br-md);
+  background-color: var(--color-gray-300);
+  border: 2px solid var(--color-gray-200);
+  box-sizing: border-box;
+  width: 358px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-2xs) var(--padding-sm);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}
+.btn-card-child1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-firebrick);
+}
+.registrar4 {
+  position: absolute;
+  top: 24%;
+  left: 34.87%;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.btn-card4 {
+  position: absolute;
+  top: 297px;
+  left: 441px;
+  width: 164px;
+  height: 54px;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+}
+.registrar5 {
+  position: absolute;
+  top: 24%;
+  left: 39.75%;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.btn-card5 {
+  position: absolute;
+  top: 297px;
+  left: 228px;
+  width: 164px;
+  height: 54px;
+  cursor: pointer;
+  font-size: var(--font-size-2xl);
+}
+.del {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--colors-white);
+  width: 833px;
+  height: 393px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--colors-white);
+  font-family: var(--font-poppins);
+}

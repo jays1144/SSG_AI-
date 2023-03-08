@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-mulish: Mulish;
+  --font-poppins: Poppins;
+  --body-s-apply-to-title: "Nunito Sans";
+  --font-nunito: Nunito;
+
+  /* font sizes */
+  --body-s-apply-to-title-size: 12px;
+  --body-extrabold-size: 14px;
+  --font-size-lg: 15px;
+  --font-size-xl: 17px;
+  --font-size-2xl: 18px;
+  --font-size-3xl: 20px;
+  --font-size-4xl: 22px;
+  --font-size-5xl: 23px;
+  --font-size-6xl: 24px;
+  --font-size-7xl: 30px;
+  --font-size-8xl: 35px;
+  --font-size-9xl: 36px;
+
+  /* Colors */
+  --colors-white: #fff;
+  --color-darkslateblue: #152c70;
+  --colors-gray-600: #475569;
+  --color-gray-100: #898989;
+  --color-gray-200: rgba(0, 0, 0, 0.5);
+  --color-gray-300: rgba(0, 0, 0, 0.04);
+  --color-limegreen: #11af22;
+  --colors-gray-50: #f8fafc;
+  --color-whitesmoke-200: rgba(245, 245, 245, 0.13);
+  --color-black: #000;
+  --color-darkgray: #a8abb0;
+  --colors-green-600: #16a34a;
+  --colors-red-600: #dc2626;
+  --color-firebrick: #c00a15;
+  --colors-gray-100: #f1f5f9;
+  --colors-primary-100: #e0f2fe;
+  --colors-green-100: #dcfce7;
+  --colors-gray-500: #64748b;
+  --colors-primary-500: #0ea5e9;
+  --colors-gray-300: #cbd5e1;
+  --colors-gray-400: #94a3b8;
+
+  /* Gaps */
+  --gap-2xs: 8px;
+  --gap-xs: 10px;
+  --gap-sm: 16px;
+  --gap-md: 24px;
+  --gap-lg: 30px;
+  --gap-xl: 73px;
+
+  /* Paddings */
+  --padding-5xs: 4px;
+  --padding-4xs: 6px;
+  --padding-3xs: 7px;
+  --padding-2xs: 8px;
+  --padding-xs: 12px;
+  --padding-sm: 16px;
+  --padding-md: 18px;
+  --padding-lg: 20px;
+  --padding-xl: 30px;
+  --padding-2xl: 48px;
+  --padding-3xl: 53px;
+  --padding-4xl: 99px;
+
+  /* border radiuses */
+  --br-xs: 4px;
+  --br-sm: 6px;
+  --br-md: 8px;
+  --br-lg: 999px;
+
+  /* Effects */
+  --double-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1),
+    0px 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
