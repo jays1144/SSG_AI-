@@ -570,14 +570,12 @@ const MainYoo1 = () => {
                     src="../16-search-icon5.svg"
                   />
                 </div>
-                <div className="moreerror" onClick={onMoreErrorContainerClick2}>
-                  <div className="moreerror-child" />
-                  <img
-                    className="err_all_search_icon"
-                    alt="신호등 이상내역 전체 아이콘"
-                    src="../img/tls_error.svg"
-                  />
-                </div>
+                <button
+                  className="allerror1"
+                  onClick={onMoreErrorContainerClick2}
+                >
+                  ALL
+                </button>
               </div>
               <div className="info">
                 <div className="police-child" />
