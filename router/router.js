@@ -31,6 +31,10 @@ router.post("/log", (req, res) => {
         });
     } else {
       console.log("로그인 값 안맞아요 in router", err);
+      res.json({
+        error: "입력하신 키값이 옳지않습니다. 확인 후 다시 입력해주세요.",
+      });
+      console.log(key);
     }
   });
 });

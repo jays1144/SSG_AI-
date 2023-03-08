@@ -7,6 +7,7 @@ import axios from "axios";
 const Login = () => {
   const navigate = useNavigate();
   const [key, setKey] = useState("");
+  const [key2, setKey2] = useState("");
   useEffect(() => {
     const scrollAnimElements = document.querySelectorAll(
       "[data-animate-on-scroll]"
@@ -37,6 +38,12 @@ const Login = () => {
     };
   }, []);
 
+  const enter = function () {
+    if (window.event.keyCode == 13) {
+      log();
+    }
+  };
+
   const log = function () {
     console.log("입력한 값 : ", key);
     axios
@@ -45,7 +52,15 @@ const Login = () => {
       })
       .then((res) => {
         console.log("로그인 성공 : ", res);
-        navigate("/main-yoo1");
+        console.log(res.data.key, "관리자key값");
+        console.log("여기서 뭐나오니 : ", res);
+
+        if (res.data.key == key) {
+          setKey2("");
+          window.location.href = "http://localhost:3000/main-yoo1";
+        } else {
+          setKey2(res.data.error);
+        }
       })
       .catch((err) => {
         console.log("에러페이지 axios부분문제", err);
@@ -77,6 +92,7 @@ const Login = () => {
               size="medium"
               margin="none"
               onChange={(e) => setKey(e.target.value)}
+              onKeyUp={enter}
             />
             <button className="filled-button" onClick={log}>
               <img className="plus-icon" alt="" src="../04-plus-icon.svg" />
@@ -87,6 +103,7 @@ const Login = () => {
                 src="../10-down-chevron-icon.svg"
               />
             </button>
+            <div className="gg">{key2}</div>
           </div>
         </div>
       </div>

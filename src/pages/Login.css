@@ -112,6 +112,12 @@
   overflow: hidden;
   opacity: 0;
 }
+.gg {
+  position: relative;
+  top: 520px;
+  left: 150px;
+  color: red;
+}
 @media screen and (max-width: 1200px) {
   .rectangle-wrapper {
     display: none;
@@ -154,7 +160,7 @@
     width: 800px;
     flex-direction: column;
     border-radius: 0;
-    padding: var(--padding-xl) 0 var(--padding-xl) 0;
+    padding: var(—padding-xl) 0 var(—padding-xl) 0;
     box-sizing: border-box;
   }
 }
